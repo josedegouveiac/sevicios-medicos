@@ -1,0 +1,252 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 1440px;
+    height: 1025;
+}
+
+.bg {
+    background-image: url(../img/Bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1025px;
+}
+
+.logo img {
+    position: absolute;
+    width: 133px;
+    height: 69px;
+    top: 44px;
+    left: 167px;
+}
+
+.navbar {
+    position: absolute;
+    width: 379px;
+    height: 19px;
+    left: 405px;
+    top: 63px;
+}
+
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-nav li {
+    list-style: none;
+}
+
+.navbar li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333f54;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar ul li a:after {
+    position: absolute;
+    width: 0;
+    height: 3px;
+    content: '';
+    background: #6C9BF6;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    transition: all 0.4s ease-out;
+}
+
+.navbar ul li a:hover {
+    color: #6C9BF6;
+}
+
+.navbar ul li a.bb-blue:hover:after {
+    width: 11%;
+}
+
+.navbar ul li a.bb-blue2:after {
+    left: 86px;
+}
+
+.navbar ul li a.bb-blue2:hover:after {
+    width: 18%;
+}
+
+.navbar ul li a.bb-blue3:after {
+    left: 200px;
+}
+
+.navbar ul li a.bb-blue3:hover:after {
+    width: 18%;
+}
+
+.navbar ul li a.bb-blue4:after {
+    left: 312px;
+}
+
+.navbar ul li a.bb-blue4:hover:after {
+    width: 20%;
+}
+
+.content-nav hr {
+    height: 2px;
+    background-color: #6C9BF6;
+    border: #6C9BF6;
+    margin-top: 10px;
+}
+
+.button-contacto {
+    position: absolute;
+    left: 82.38%;
+    right: 11.63%;
+    top: 8.8%;
+    padding: 8px 24px;
+    border-radius: 5px;
+    background-color: #6C9BF6;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.button-contacto a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 22px;
+    width: 67px;
+    font-family: 'Lato', sans-serif;
+}
+
+.button-contacto:hover {
+    background-color: #4682fc
+}
+
+.foto-doc {
+    position: relative;
+    width: 404.17px;
+    height: 566.13px;
+    top: 200px;
+    left: 800px;
+}
+
+.copy {
+    position: relative;
+    width: 607px;
+    height: 375px;
+    left: 167px;
+    top: -260px;
+}
+
+.copy h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 92.6%;
+    color: #333f54;
+}
+
+.copy p {
+    position: relative;
+    width: 544px;
+    height: 81px;
+    top: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.button-agenda a {
+    position: relative;
+    top: 100px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    background-color: #6C9BF6;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 167px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.button-agenda a:hover {
+    background-color: #4682fc
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    left: 167px;
+    width: 1101px;
+    height: 54px;
+}
+
+.content-footer {
+    display: flex;
+    width: 215px;
+    height: 48px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.content-footer img {
+    position: static;
+    width: 50px;
+    height: 48px;
+}
+
+.content-footer p {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    line-height: 29px;
+    margin: 0px 15px;
+}
+
+.img-flecha img {
+    width: 9.3px;
+    height: 16.64px;
+    color: #333f54;
+}
+
+.img-raton img.circule {
+    position: absolute;
+    width: 21.94px;
+    height: 32px;
+}
+
+.img-raton img.line {
+    position: relative;
+    left: 10.5px;
+    top: -2px;
+}
+
+.img-raton img.vector {
+    position: relative;
+    top: 30px;
+    transform: rotate(90deg);
+    width: 9.36px;
+    height: 16.6px;
+    left: 1px;
+}

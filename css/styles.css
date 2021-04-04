@@ -13,13 +13,13 @@
 
 .bg img.e-2 {
     position: relative;
-    left: 1050px;
+    left: 912px;
     top: -84px;
 }
 
 .bg img.e-7 {
     position: relative;
-    left: 545px;
+    left: 407px;
     top: -140px;
 }
 
@@ -56,7 +56,7 @@
 .bg img.e-9 {
     position: absolute;
     top: 831px;
-    left: 1382px;
+    left: 1304px;
 }
 
 .logo img {
@@ -64,14 +64,14 @@
     width: 133px;
     height: 69px;
     top: 44px;
-    left: 267px;
+    left: 167px;
 }
 
 .navbar {
     position: absolute;
     width: 379px;
     height: 19px;
-    left: 505px;
+    left: 405px;
     top: 63px;
 }
 
@@ -146,10 +146,10 @@
 
 .button-contacto {
     position: absolute;
-    left: 98.38%;
+    left: 82.38%;
     right: 11.63%;
     top: 55px;
-    padding: 8px 34px;
+    padding: 8px 24px;
     border-radius: 5px;
     background-color: #6C9BF6;
     display: flex;
@@ -177,7 +177,7 @@
     position: absolute;
     width: 404.17px;
     height: 566.13px;
-    left: 1000.17px;
+    left: 800.17px;
     top: 150.87px;
 }
 
@@ -185,7 +185,7 @@
     position: absolute;
     width: 607px;
     height: 375px;
-    left: 267px;
+    left: 167px;
     top: 280px;
 }
 
@@ -236,7 +236,7 @@
 .footer {
     position: absolute;
     display: flex;
-    left: 267px;
+    left: 167px;
     width: 1101px;
     height: 54px;
     top: 918px;

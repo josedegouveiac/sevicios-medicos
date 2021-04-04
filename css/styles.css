@@ -8,14 +8,55 @@
     padding: 0px;
     margin: 0px;
     width: 1440px;
-    height: 1025;
+    height: 1024px;
 }
 
-.bg {
-    background-image: url(../img/Bg.png);
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 1025px;
+.bg img.e-2 {
+    position: relative;
+    left: 950px;
+    top: -84px;
+}
+
+.bg img.e-7 {
+    position: relative;
+    left: 445px;
+    top: -140px;
+}
+
+.bg img.e-8 {
+    position: absolute;
+    top: -28px;
+    left: -0px;
+}
+
+.bg img.e-3 {
+    position: absolute;
+    top: -28px;
+    left: -9px;
+}
+
+.bg img.e-5 {
+    position: absolute;
+    top: 427px;
+    left: 46px;
+}
+
+.bg img.e-4 {
+    position: absolute;
+    left: 581px;
+    top: 633px;
+}
+
+.bg img.e-6 {
+    position: absolute;
+    top: 150px;
+    left: 706px;
+}
+
+.bg img.e-9 {
+    position: absolute;
+    top: 831px;
+    left: 1332px;
 }
 
 .logo img {
@@ -107,7 +148,7 @@
     position: absolute;
     left: 82.38%;
     right: 11.63%;
-    top: 8.8%;
+    top: 55px;
     padding: 8px 24px;
     border-radius: 5px;
     background-color: #6C9BF6;
@@ -133,19 +174,19 @@
 }
 
 .foto-doc {
-    position: relative;
+    position: absolute;
     width: 404.17px;
     height: 566.13px;
-    top: 200px;
-    left: 800px;
+    left: 827.17px;
+    top: 150.87px;
 }
 
 .copy {
-    position: relative;
+    position: absolute;
     width: 607px;
     height: 375px;
     left: 167px;
-    top: -260px;
+    top: 280px;
 }
 
 .copy h1 {
@@ -193,11 +234,12 @@
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     display: flex;
     left: 167px;
     width: 1101px;
     height: 54px;
+    top: 918px;
 }
 
 .content-footer {

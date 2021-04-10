@@ -1,14 +1,10 @@
 * {
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
 .container {
     padding: 0px;
     margin: 0px;
-    width: 1440px;
-    height: 1024px;
 }
 
 .bg img.e-2 {

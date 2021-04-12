@@ -1,24 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-image: url(../img/Bg.png);
+    background: url(../img/Bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: 100%;
+}
+
+.fila-nav {
+    display: flex;
+    margin: 44px 0px 0px 167px;
 }
 
 .logo img {
-    position: absolute;
     width: 133px;
     height: 69px;
-    top: 44px;
-    left: 167px;
+    margin-right: 120px;
 }
 
 .navbar {
-    position: absolute;
     width: 379px;
     height: 19px;
-    left: 405px;
-    top: 63px;
+    margin-right: 328px;
+    margin-top: 14px;
 }
 
 .content-nav {
@@ -83,26 +90,13 @@ body {
     width: 20%;
 }
 
-.content-nav hr {
-    height: 2px;
-    background-color: #6C9BF6;
-    border: #6C9BF6;
-    margin-top: 10px;
-}
-
 .button-contacto {
-    position: absolute;
-    left: 82.38%;
-    right: 11.63%;
-    top: 55px;
     padding: 8px 24px;
     border-radius: 5px;
     background-color: #6C9BF6;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
     align-items: center;
     transition: 0.5s ease;
+    height: 45px;
 }
 
 .button-contacto a {
@@ -119,20 +113,21 @@ body {
     background-color: #4682fc
 }
 
+.content {
+    display: flex;
+    margin-left: 167px;
+}
+
 .foto-doc {
-    position: absolute;
     width: 404.17px;
     height: 566.13px;
-    left: 800.17px;
-    top: 150.87px;
+    padding-top: 40px;
 }
 
 .copy {
-    position: absolute;
+    margin-top: 120px;
     width: 607px;
     height: 375px;
-    left: 167px;
-    top: 280px;
 }
 
 .copy h1 {
@@ -144,10 +139,9 @@ body {
 }
 
 .copy p {
-    position: relative;
+    margin-top: 54px;
     width: 544px;
     height: 81px;
-    top: 50px;
     font-size: 18px;
     line-height: 22px;
     font-family: 'Lato', sans-serif;
@@ -155,8 +149,7 @@ body {
 }
 
 .button-agenda a {
-    position: relative;
-    top: 100px;
+    margin-top: 48px;
     padding: 8px 24px;
     border-radius: 5px;
     background-color: #6C9BF6;
@@ -180,12 +173,10 @@ body {
 }
 
 .footer {
-    position: absolute;
     display: flex;
-    left: 167px;
     width: 1101px;
     height: 54px;
-    top: 918px;
+    margin: 257px 0px 52px 167px;
 }
 
 .content-footer {
